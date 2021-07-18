@@ -1,6 +1,10 @@
 .teamSection {
   display: flex;
   justify-content: center;
+  padding-top: 60px;
+}
+.content {
+  width: 100%;
 }
 
 .title {
@@ -8,18 +12,15 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 40px 0px;
   font-family: "DM Sans", sans-serif;
-}
-.content {
-  width: 100%;
 }
 
 .cards {
+  padding-top: 40px;
 }
 
 @media (max-width: 700px) {
   .title {
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
 }

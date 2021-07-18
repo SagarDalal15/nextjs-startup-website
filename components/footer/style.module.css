@@ -15,7 +15,7 @@
 }
 
 .divider {
-  background-color: whitesmoke;
+  background-color: rgba(71, 71, 71, 0.1);
   height: 2px;
   width: 100%;
 }

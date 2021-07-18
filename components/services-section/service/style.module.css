@@ -10,6 +10,8 @@
 .imageDiv {
   padding: 10px 0px;
   width: 55px;
+  min-width: 55px;
+  max-width: 55px;
   height: 55px;
 }
 
@@ -23,6 +25,15 @@
   padding-top: 15px;
   font-size: 15px;
   line-height: 28px;
+}
+
+@media (max-width: 950px) {
+  .service {
+    width: 100%;
+  }
+  .content {
+    width: 90%;
+  }
 }
 
 @media (max-width: 700px) {

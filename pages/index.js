@@ -3,6 +3,7 @@ import HomeSection from "../components/home-section";
 import ServicesSection from "../components/services-section";
 import TeamSection from "../components/team-section";
 import Footer from "../components/footer";
+import SectionDivider from "../components/section-divider";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <section id="services">
         <ServicesSection />
       </section>
+      <SectionDivider />
       <section id="team">
         <TeamSection />
       </section>

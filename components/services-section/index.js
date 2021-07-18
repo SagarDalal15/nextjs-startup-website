@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 
 import classes from "./style.module.css";
 import servicesJSON from "./services.json";
@@ -32,15 +32,15 @@ export default function ServicesSection() {
               text="Business Goals Achieved with Design"
             />
           </div>
-          <div className={classes.service}>
+          <div className={classes.services}>
             {services.map((service) => (
-              <div key={service.title}>
+              <Fragment key={service.title}>
                 <Service
                   title={service.title}
                   imageSrc={service.imageSrc}
                   content={service.content}
                 />
-              </div>
+              </Fragment>
             ))}
           </div>
         </div>
