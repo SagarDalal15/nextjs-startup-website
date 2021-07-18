@@ -1,0 +1,26 @@
+[
+    {
+        "imageSrc":"/res/features/fast-performance.svg",
+        "title":"Fast Performance",
+        "text":"Get your blood tests delivered at home collect a sample from the your blood tests."
+
+    },
+    {
+        "imageSrc":"/res/features/partnership-deal.svg",
+        "title":"Partnership deal",
+        "text":"Get your blood tests delivered at home collect a sample from the your blood tests."
+
+    },
+    {
+        "imageSrc":"/res/features/pro-subscription.svg",
+        "title":"Pro Subscription",
+        "text":"Get your blood tests delivered at home collect a sample from the your blood tests."
+
+    },
+    {
+        "imageSrc":"/res/features/customer-support.svg",
+        "title":"Customer Support",
+        "text":"Get your blood tests delivered at home collect a sample from the your blood tests."
+
+    }
+]

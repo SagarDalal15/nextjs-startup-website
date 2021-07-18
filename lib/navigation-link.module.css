@@ -1,0 +1,8 @@
+.item:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.itemActive {
+  color: red;
+}

@@ -1,0 +1,57 @@
+.servicesSection {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: fit-content;
+  padding: 30px 0px;
+}
+
+.content {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+.videoImageDiv {
+  min-width: 290px;
+  width: 590px;
+  max-width: 590px;
+  height: fit-content;
+}
+
+.text {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.title {
+  padding: 4px;
+  width: 450px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .text {
+    margin: 0px;
+  }
+  .videoImageDiv {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+  .title {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,53 @@
+.feature {
+  padding: 35px 0px;
+  height: 300px;
+  width: 215px;
+}
+
+.imageDiv {
+  margin-left: -20px;
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text {
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+@media (max-width: 1015px) {
+  .feature {
+    height: fit-content;
+    padding: 15px 0px;
+    width: 330px;
+  }
+}
+
+@media (max-width: 767px) {
+  .feature {
+    width: 60vw;
+    padding: 20px 0px;
+  }
+
+  .imageDivWrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imageDiv {
+    margin: 0px;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  .text {
+    text-align: center;
+  }
+}

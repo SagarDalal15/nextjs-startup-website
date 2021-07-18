@@ -1,0 +1,38 @@
+[
+
+    {   "imageSrc":"/res/team/saimon-harmer.svg",
+        "name":"Saimon Harmer",
+        "post":"CEO and Founder"
+
+    },
+    { "imageSrc":"/res/team/lina-jutila.svg",
+        "name":"Lina Jutilia",
+        "post":"Founder"
+
+    },
+
+    { "imageSrc":"/res/team/aaron-nunez.svg",
+        "name":"Aaron Nunez",
+        "post":"Web Designer"
+
+    },
+
+    {   "imageSrc":"/res/team/saimon-harmer.svg",
+        "name":"Saimon Harmer",
+        "post":"CEO and Founder"
+
+    },
+    { "imageSrc":"/res/team/lina-jutila.svg",
+        "name":"Lina Jutilia",
+        "post":"CEO and Founder"
+
+    },
+
+    { "imageSrc":"/res/team/aaron-nunez.svg",
+        "name":"Aaron Nunez",
+        "post":"CEO and Founder"
+
+    }
+
+
+]

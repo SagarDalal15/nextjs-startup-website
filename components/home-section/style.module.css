@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  padding-top: 100px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.title {
+  margin-top: 78px;
+}
+
+.backgroundImgDiv {
+  background-size: contain;
+  height: fit-content;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .title {
+    margin-top: 35px;
+  }
+}

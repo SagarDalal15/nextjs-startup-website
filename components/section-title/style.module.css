@@ -1,0 +1,26 @@
+.title {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 4px;
+}
+
+@media (max-width: 1050px) {
+  .text {
+    font-size: 27px;
+  }
+}
+@media (max-width: 700px) {
+  .title {
+    font-size: 3vw;
+  }
+  .text {
+    font-size: 5vw;
+  }
+}

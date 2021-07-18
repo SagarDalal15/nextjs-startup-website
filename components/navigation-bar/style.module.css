@@ -1,0 +1,100 @@
+.navigationbar {
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+  color: #02073e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  z-index: 10;
+}
+
+.content {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.imageDiv {
+  width: 35px;
+  height: 35px;
+  margin: 0px 10px;
+}
+
+.items {
+  width: 390px;
+  display: flex;
+  font-size: 15px;
+  margin-left: 265px;
+  justify-content: space-between;
+}
+
+.button {
+  margin-left: auto;
+  border-radius: 30px;
+  padding: 13px 30px;
+  font-size: 15px;
+  border: 2px solid;
+  font-weight: 500;
+}
+
+.sidebarButton {
+  z-index: 10;
+  cursor: pointer;
+  margin: 0px 20px;
+  width: 30px;
+  height: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 1050px) {
+  .content {
+    width: 78vw;
+  }
+
+  .items {
+    display: none;
+  }
+
+  .sidebarButton {
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .navigationbar {
+    height: 90px;
+  }
+  .content {
+    padding: 0px 3vw;
+    width: 100vw;
+  }
+
+  .button {
+    padding: 14px 32px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navigationbar {
+    height: 80px;
+  }
+
+  .button {
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,43 @@
+.service {
+  padding: 20px 0px;
+  width: 380px;
+  display: flex;
+}
+.text {
+  padding-left: 20px;
+}
+
+.imageDiv {
+  padding: 10px 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content {
+  width: 300px;
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+@media (max-width: 700px) {
+  .service {
+    width: 100%;
+    padding: 6px;
+  }
+
+  .content {
+    font-size: 14px;
+    line-height: 25px;
+    width: fit-content;
+  }
+  .text {
+    padding-left: 20px;
+    width: 60vw;
+  }
+}
