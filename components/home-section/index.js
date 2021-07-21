@@ -9,9 +9,10 @@ export default function HomeSection() {
       <div className={classes.title}>
         <Title />
       </div>
-      <div className={classes.backgroundImgDiv}>
-        <div style={{ position: "absolute" }}>
+      <div className={classes.ImgDiv}>
+        <div className={classes.rearImgDiv}>
           <Image
+            style={{ position: "absolute" }}
             src="/res/home-background.svg"
             alt="background"
             width={1500}
