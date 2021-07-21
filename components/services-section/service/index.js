@@ -6,7 +6,7 @@ export default function Service(props) {
   return (
     <div className={classes.service}>
       <div className={classes.imageDiv}>
-        <Image src={props.imageSrc} alt={props.alt} width={200} height={200} />
+        <Image src={props.imageSrc} alt={props.alt} width={60} height={60} />
       </div>
       <div className={classes.text}>
         <div className={classes.title}>{props.title}</div>

@@ -7,7 +7,7 @@ export default function Feature(props) {
     <div className={classes.feature}>
       <div className={classes.imageDivWrapper}>
         <div className={classes.imageDiv}>
-          <Image src={props.imageSrc} width={200} height={200} />
+          <Image src={props.imageSrc} width={100} height={100} />
         </div>
       </div>
       <div className={classes.title}>{props.title}</div>
