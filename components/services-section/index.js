@@ -20,8 +20,8 @@ export default function ServicesSection() {
           <Image
             src="/res/video-image.svg"
             alt="video"
-            width={1000}
-            height={1000}
+            width={600}
+            height={600}
           />
         </div>
 
