@@ -14,7 +14,7 @@ class MyDocument extends Document {
           <meta
             name="image"
             property="og:image"
-            content="%PUBLIC_URL%/public/mysite.png"
+            content="%PUBLIC_URL%/mysite.png"
           />
           <meta name="author" content="Sagar Dalal" />
           <meta
