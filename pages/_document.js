@@ -11,11 +11,7 @@ class MyDocument extends Document {
       <Html lang="en" prefix="og: http://ogp.me/ns#">
         <Head>
           <meta property="og:title" content="Startup Website" />
-          <meta
-            name="image"
-            property="og:image"
-            content="%PUBLIC_URL%/mysite.png"
-          />
+          <meta name="image" property="og:image" content="/mysite.png" />
           <meta name="author" content="Sagar Dalal" />
           <meta
             property="og:description"
